@@ -19,10 +19,11 @@ img {
 
 section {
     max-width: 100%;
+    flex: 1;
 }
 
 h2  {
-  text-align: center;
+  font-size: 2em;
 }
 
 header {
@@ -60,19 +61,18 @@ nav ul li a:link {
 
 article {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  padding: 2em;
+  padding: 1em;
   margin: 0;
-  width: 50%
 
 
 }
 
+
 .cougar, .lion, .tiger {
-  padding: 2em;
-  margin: 1em;
-  width: 50%;
+  padding: 1em;
+  margin: 0.5em;
+
 
 }
 
@@ -80,14 +80,14 @@ article {
 .photo {
   display: block;
   margin: 0 auto;
-  width: inherit;
+
 
 }
 
 .text {
   width: inherit;
-  margin: 2em;
-  padding: 2em;
+  margin: 1em;
+  padding: 1em;
 }
 
 
@@ -119,10 +119,7 @@ footer p {
    fff white
 */
 
-.text {
-  background: #FFF;
 
-}
 
 #cougar {
   background: #B26219;
